@@ -1,0 +1,32 @@
+h1{
+    color: red;
+    text-align: center;
+}
+
+#parrafoPresentacion{
+    color: white;
+    font-size: "18px";
+    text-align: center;
+}
+
+#divEspecial{
+    background-color: green; 
+    color: yellow;
+}
+
+#contenedorForm{
+    background-color: lightgreen;
+}
+
+@media only screen and (min-width: 768px) {
+    #divEspecial{
+        background-color: rgb(255, 214, 245);
+        color: brown;
+    }
+
+    #contenedorForm{
+        background-color: rgb(255, 195, 224);
+    }
+
+
+  }
